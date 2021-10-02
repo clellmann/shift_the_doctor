@@ -11,7 +11,9 @@ The tool automatically creates a shift plan based on the follwoing assumptions:
 - It considers vacations
 - It distributes shift by maximazing the distance between shifts of each doctor
 - It considers that weekends as special times
+- There are two assigned doctors per day
+- Each doctor is either first or second assistant
 
-As input the tool accepts a csv file with parameters (name, part time, vacation, shift wishes, non-available times).
+As input the tool accepts a csv file with parameters (name, assistant, part time, vacation, shift wishes, non-available times, last_shift).
 
 In the end it outputs an editable excel file.
